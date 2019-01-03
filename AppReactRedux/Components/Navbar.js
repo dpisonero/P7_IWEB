@@ -1,10 +1,11 @@
 import React from 'react';
+import {Text} from 'react-native'
 
 export default class Navbar extends React.Component {
 
     render() {
         return(
-            <h1 style={{color: 'white', backgroundColor: 'black', textAlign: 'center'}}>Quiz</h1>
+            <Text style={{color: 'white', backgroundColor: 'black', textAlign: 'center'}}>Quiz</Text>
         )
     }
 }

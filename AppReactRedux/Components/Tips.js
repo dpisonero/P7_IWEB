@@ -1,11 +1,12 @@
 import React from 'react';
+import {View, Text} from 'react-native';
 
 export default class Tips extends React.Component {
 
     aux() {
         return this.props.question.tips.map((tip) => {
             return (
-                <li style={{fontStyle: 'italic', fontWeight: 'bold'}} key={tip}>{tip}</li>
+                <Text style={{fontStyle: 'italic', fontWeight: 'bold'}} key={tip}>{tip}</Text>
             )
         });
     }
@@ -20,27 +21,27 @@ export default class Tips extends React.Component {
 
         if (tips.length === 0) {
             return (
-                <div>
-                    <div style={{height: '20px'}} />
-                    <div style={{textAlign: 'center', color: '#800000', fontSize: '15px',
-                        borderStyle: 'solid', marginLeft: '10em', marginRight: '10em', backgroundColor: '#F0F0F0'}} className= "No pistas">
-                        <h3>Pistas</h3>
-                        <h5 style={{fontStyle: 'italic', fontSize:'15px'}}>{showTips}</h5>
-                    </div>
-                    <div style={{height: '20px'}} />
-                </div>
+                <View>
+                    <View style={{height: 20}} />
+                    <View style={{textAlign: 'center', color: '#800000', fontSize:  15,
+                        borderStyle: 'solid', marginLeft: 'auto', marginRight: 'auto', backgroundColor: '#F0F0F0'}} className= "No pistas">
+                        <Text>Pistas</Text>
+                        <Text style={{fontStyle: 'italic', fontSize: 1}}>{showTips}</Text>
+                    </View>
+                    <View style={{height: 20}} />
+                </View>
             )
         } else {
                 return (
-                    <div>
-                        <div style={{height: '20px'}} />
-                        <div style={{textAlign: 'center', color: '#800000', fontSize: '15px',
-                            borderStyle: 'solid', marginLeft: '10em', marginRight: '10em', backgroundColor: '#F0F0F0'}} className="Pistas">
-                            <h3>Pistas</h3>
-                            <p>{this.aux()}</p>
-                        </div>
-                        <div style={{height: '20px'}} />
-                    </div>
+                    <View>
+                        <View style={{height: 20}} />
+                        <View style={{textAlign: 'center', color: '#800000', fontSize:  15,
+                            borderStyle: 'solid', marginLeft: 'auto', marginRight: 'auto', backgroundColor: '#F0F0F0'}} className="Pistas">
+                            <Text>Pistas</Text>
+                            <Text>{this.aux()}</Text>
+                        </View>
+                        <View style={{height: 20}} />
+                    </View>
                 )
         }
     }

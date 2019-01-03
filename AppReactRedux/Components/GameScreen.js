@@ -5,6 +5,7 @@ import { questionAnswer } from "../redux/actions";
 import { changeQuestion } from "../redux/actions";
 import { submit } from "../redux/actions";
 import { initQuestions } from "../redux/actions";
+import {View} from 'react-native';
 
 class GameScreen extends Component {
 
@@ -25,7 +26,7 @@ class GameScreen extends Component {
         console.log(this.props.questions);
         console.log(this.props.questions[this.props.currentQuestion]);
         return (
-            <div>
+            <View>
                 <Game question={this.props.questions[this.props.currentQuestion]}
 
                       finished={this.props.finished}
@@ -54,7 +55,7 @@ class GameScreen extends Component {
                           this.props.dispatch(initQuestions(questions))
                       }}
                 />
-            </div>
+            </View>
         );
     }
 }

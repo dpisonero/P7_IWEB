@@ -2,6 +2,7 @@ import { Provider } from 'react-redux';
 import GlobalState from './reducers';
 import { createStore } from 'redux';
 /*import { questions } from "../assets/mock-data";*/ //Las descargo del servidor
+import {View} from 'react-native';
 
 import React from 'react';
 import GameScreen from '../Components/GameScreen';
@@ -22,9 +23,9 @@ export default class ReduxProvider extends React.Component {
 
         return (
             <Provider store={this.store}>
-                <div style={{height: '100%', backgroundColor: '#D3D3D3'}} >
+                <View style={{height: 'auto', backgroundColor: '#D3D3D3'}} >
                     <GameScreen/>
-                </div>
+                </View>
             </Provider>
         );
     }
