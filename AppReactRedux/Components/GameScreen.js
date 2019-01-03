@@ -5,7 +5,7 @@ import { questionAnswer } from "../redux/actions";
 import { changeQuestion } from "../redux/actions";
 import { submit } from "../redux/actions";
 import { initQuestions } from "../redux/actions";
-import {View} from 'react-native';
+import {View, Button} from 'react-native';
 
 class GameScreen extends Component {
 
@@ -26,34 +26,37 @@ class GameScreen extends Component {
         console.log(this.props.questions);
         console.log(this.props.questions[this.props.currentQuestion]);
         return (
-                <Game question={this.props.questions[this.props.currentQuestion]}
+                <View>
+                    <Game question={this.props.questions[this.props.currentQuestion]}
 
-                      finished={this.props.finished}
+                          finished={this.props.finished}
 
-                      questions={this.props.questions}
+                          questions={this.props.questions}
 
-                      onQuestionAnswer={(answer) => {
-                          this.props.dispatch(questionAnswer(this.props.currentQuestion, answer))
-                      }}
+                          onQuestionAnswer={(answer) => {
+                              this.props.dispatch(questionAnswer(this.props.currentQuestion, answer))
+                          }}
 
-                      score={this.props.score}
+                          score={this.props.score}
 
-                      onNextQuestion={() => {
-                          this.props.dispatch(changeQuestion(this.props.currentQuestion + 1))
-                      }}
+                          onNextQuestion={() => {
+                              this.props.dispatch(changeQuestion(this.props.currentQuestion + 1))
+                          }}
 
-                      onPreviousQuestion={() => {
-                          this.props.dispatch(changeQuestion(this.props.currentQuestion - 1))
-                      }}
+                          onPreviousQuestion={() => {
+                              this.props.dispatch(changeQuestion(this.props.currentQuestion - 1))
+                          }}
 
-                      onSubmitQuestion = {(questions) => {
-                          this.props.dispatch(submit(questions))
-                      }}
+                          onSubmitQuestion = {(questions) => {
+                              this.props.dispatch(submit(questions))
+                          }}
 
-                      onResetQuestions = {(questions) => {
-                          this.props.dispatch(initQuestions(questions))
-                      }}
-                />
+                          onResetQuestions = {(questions) => {
+                              this.props.dispatch(initQuestions(questions))
+                          }}
+                    />
+                    <Button onPress={() => this.props.navigation.goBack()} title='Volver a la pantalla inicial'/>
+                </View>
         );
     }
 }

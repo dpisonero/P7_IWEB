@@ -23,9 +23,10 @@ export default class Game extends React.Component {
                     <Navbar/>
                     <Text style={{fontStyle: 'italic', textAlign:'center', color:'blue',
                         fontSize: 50}}>Su puntuación es: {this.props.score} ({this.props.score * 100 / this.props.questions.length}% de aciertos)</Text>
-                    <View style={{width: 100, height: 'auto', display: 'flex'}} />
+                    <View style={{height: 100, display: 'flex'}} />
                     <Button style={{backgroundColor:'#FFFF66', fontSize: 20, fontWeight:'bold',
                         alignContent: 'center'}} title='Revisar respuestas' onPress={() => {this.props.onResetQuestions(this.props.questions)}}/>
+                    <View style={{height: 100}}/>
                 </View>
             )
         } else {

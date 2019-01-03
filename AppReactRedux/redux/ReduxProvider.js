@@ -6,6 +6,18 @@ import {View} from 'react-native';
 
 import React from 'react';
 import GameScreen from '../Components/GameScreen';
+import {createStackNavigator, createAppContainer} from 'react-navigation';
+import InitialScreen from '../Components/InitialScreen';
+
+const AppNavigator = createStackNavigator({
+    InitialScreen: {screen: InitialScreen},
+    GameScreen: {screen: GameScreen}
+}, {
+    initialRouteName: "InitialScreen",
+    headerMode:'none'
+});
+
+const AppContainer = createAppContainer(AppNavigator);
 
 export default class ReduxProvider extends React.Component {
     constructor(props) {
@@ -24,7 +36,7 @@ export default class ReduxProvider extends React.Component {
         return (
             <Provider store={this.store}>
                 <View style={{height: '100%', backgroundColor: '#D3D3D3'}} >
-                    <GameScreen/>
+                    <AppContainer/>
                 </View>
             </Provider>
         );
