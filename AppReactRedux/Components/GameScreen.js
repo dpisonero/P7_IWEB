@@ -26,7 +26,6 @@ class GameScreen extends Component {
         console.log(this.props.questions);
         console.log(this.props.questions[this.props.currentQuestion]);
         return (
-            <View>
                 <Game question={this.props.questions[this.props.currentQuestion]}
 
                       finished={this.props.finished}
@@ -55,7 +54,6 @@ class GameScreen extends Component {
                           this.props.dispatch(initQuestions(questions))
                       }}
                 />
-            </View>
         );
     }
 }
