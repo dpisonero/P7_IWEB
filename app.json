@@ -4,6 +4,9 @@
     "slug": "P7",
     "privacy": "public",
     "sdkVersion": "31.0.0",
+    "androidStatusBar": {
+      "backgroundColor": "#CCCCCC"
+    },
     "platforms": [
       "ios",
       "android"

@@ -26,7 +26,7 @@ export default class Tips extends React.Component {
                     <View style={{textAlign: 'center', color: '#800000', fontSize:  15,
                         borderStyle: 'solid', marginLeft: 'auto', marginRight: 'auto', backgroundColor: '#F0F0F0'}} className= "No pistas">
                         <Text>Pistas</Text>
-                        <Text style={{fontStyle: 'italic', fontSize: 1}}>{showTips}</Text>
+                        <Text style={{fontStyle: 'italic', fontSize: 10}}>{showTips}</Text>
                     </View>
                     <View style={{height: 20}} />
                 </View>

@@ -4,14 +4,9 @@
     <list default="true" id="58a74c78-82e5-4b77-ac05-38d20d56ea8c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/Answer.js" afterPath="$PROJECT_DIR$/AppReactRedux/Components/Answer.js" />
-      <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/Button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/Content.js" afterPath="$PROJECT_DIR$/AppReactRedux/Components/Content.js" />
       <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/Game.js" afterPath="$PROJECT_DIR$/AppReactRedux/Components/Game.js" />
-      <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/GameScreen.js" afterPath="$PROJECT_DIR$/AppReactRedux/Components/GameScreen.js" />
-      <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/Navbar.js" afterPath="$PROJECT_DIR$/AppReactRedux/Components/Navbar.js" />
-      <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/Question.js" afterPath="$PROJECT_DIR$/AppReactRedux/Components/Question.js" />
       <change beforePath="$PROJECT_DIR$/AppReactRedux/Components/Tips.js" afterPath="$PROJECT_DIR$/AppReactRedux/Components/Tips.js" />
-      <change beforePath="$PROJECT_DIR$/AppReactRedux/redux/ReduxProvider.js" afterPath="$PROJECT_DIR$/AppReactRedux/redux/ReduxProvider.js" />
+      <change beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +23,8 @@
       <file leaf-file-name="Answer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Answer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -52,8 +47,8 @@
       <file leaf-file-name="Game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="26" column="92" lean-forward="false" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
+            <state relative-caret-position="289">
+              <caret line="26" column="109" lean-forward="false" selection-start-line="26" selection-start-column="109" selection-end-line="26" selection-end-column="109" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -64,7 +59,7 @@
       <file leaf-file-name="GameScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/GameScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="833">
               <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -76,7 +71,7 @@
       <file leaf-file-name="MyButton.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/MyButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="370">
               <caret line="47" column="146" lean-forward="false" selection-start-line="47" selection-start-column="146" selection-end-line="47" selection-end-column="146" />
               <folding />
             </state>
@@ -108,7 +103,7 @@
       <file leaf-file-name="ReduxProvider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppReactRedux/redux/ReduxProvider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="414">
               <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -121,8 +116,8 @@
       <file leaf-file-name="Tips.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Tips.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="476">
+              <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -162,10 +157,11 @@
         <option value="$PROJECT_DIR$/AppReactRedux/Components/Button.js" />
         <option value="$PROJECT_DIR$/AppReactRedux/Components/GameScreen.js" />
         <option value="$PROJECT_DIR$/AppReactRedux/Components/Question.js" />
-        <option value="$PROJECT_DIR$/AppReactRedux/Components/Tips.js" />
         <option value="$PROJECT_DIR$/AppReactRedux/Components/MyButton.js" />
-        <option value="$PROJECT_DIR$/AppReactRedux/Components/Answer.js" />
         <option value="$PROJECT_DIR$/AppReactRedux/redux/ReduxProvider.js" />
+        <option value="$PROJECT_DIR$/AppReactRedux/Components/Answer.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/AppReactRedux/Components/Tips.js" />
         <option value="$PROJECT_DIR$/AppReactRedux/Components/Game.js" />
       </list>
     </option>
@@ -267,12 +263,12 @@
       <workItem from="1546514509554" duration="1632000" />
       <workItem from="1546523947075" duration="367000" />
       <workItem from="1546524337569" duration="131000" />
-      <workItem from="1546524481639" duration="3789000" />
+      <workItem from="1546524481639" duration="5487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5919000" />
+    <option name="totallyTimeSpent" value="7617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -375,23 +371,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Tips.js">
+    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Answer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppReactRedux/redux/ReduxProvider.js">
+    <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#196#230#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/GameScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -406,46 +427,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Navbar.js">
+    <entry file="file://$PROJECT_DIR$/AppReactRedux/redux/ReduxProvider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#196#230#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/MyButton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="370">
           <caret line="47" column="146" lean-forward="false" selection-start-line="47" selection-start-column="146" selection-end-line="47" selection-end-column="146" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/GameScreen.js">
+    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Tips.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Answer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="476">
+          <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -454,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AppReactRedux/Components/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="26" column="92" lean-forward="false" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
+        <state relative-caret-position="289">
+          <caret line="26" column="109" lean-forward="false" selection-start-line="26" selection-start-column="109" selection-end-line="26" selection-end-column="109" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

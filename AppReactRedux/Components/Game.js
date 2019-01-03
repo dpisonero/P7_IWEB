@@ -24,7 +24,7 @@ export default class Game extends React.Component {
                     <Text style={{fontStyle: 'italic', textAlign:'center', color:'blue',
                         fontSize: 50}}>Su puntuación es: {this.props.score} ({this.props.score * 100 / this.props.questions.length}% de aciertos)</Text>
                     <Button style={{backgroundColor:'#ADFF2F', fontSize: 20, fontWeight:'bold',
-                        alignContent: 'center'}} title='Volver a jugar con nuevas preguntas'/>
+                        alignContent: 'center'}} title='Volver a jugar con nuevas preguntas' onPress={() => {location.reload()}}/>
                     <View style={{width: 100, height: 'auto', display: 'flex'}} />
                     <Button style={{backgroundColor:'#FFFF66', fontSize: 20, fontWeight:'bold',
                         alignContent: 'center'}} title='Revisar respuestas' onPress={() => {this.props.onResetQuestions(this.props.questions)}}/>
