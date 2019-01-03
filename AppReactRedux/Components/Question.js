@@ -12,7 +12,7 @@ export default class Question extends React.Component {
 
         }
         return(
-            <Text style={{color: 'black', textAlign: 'center', fontSize:  40,
+            <Text style={{color: 'black', textAlign: 'center', fontSize:  20,
                 borderStyle: 'solid', marginLeft: 'auto', marginRight: 'auto', backgroundColor: '#F0F0F0'}}>{this.props.question.question}</Text>
         )
     }

@@ -7,8 +7,10 @@ import {View} from 'react-native';
 export default class Content extends React.Component {
     render() {
         return (
-            <View>
+            <View style={{justifyContent: 'space-between'}}>
                 <Question question={this.props.question}/>
+
+                <View style={{height: 40}}/>
 
                 <Answer question={this.props.question} onQuestionAnswer={this.props.onQuestionAnswer}/>
 

@@ -23,7 +23,7 @@ export default class ReduxProvider extends React.Component {
 
         return (
             <Provider store={this.store}>
-                <View style={{height: 'auto', backgroundColor: '#D3D3D3'}} >
+                <View style={{height: '100%', backgroundColor: '#D3D3D3'}} >
                     <GameScreen/>
                 </View>
             </Provider>
